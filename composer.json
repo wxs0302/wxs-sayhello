@@ -1,0 +1,21 @@
+{
+    "name": "wxs/sayhello",
+    "description": "This a demo for build composer packagist .",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "阮佳佳",
+            "email": "250069802@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=6"
+    },
+    "autoload": {
+        "psr-4": {
+            "say\\hello\\": "src/"
+        }
+    }
+}
