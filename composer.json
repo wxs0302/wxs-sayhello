@@ -1,21 +1,21 @@
 {
-    "name": "wxs/sayhello",
-    "description": "This a demo for build composer packagist .",
+    "name": "wxs/show",
+    "description": "study",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "阮佳佳",
-            "email": "250069802@qq.com"
+            "name": "wxs",
+            "email": "923020040@qq.com"
         }
     ],
     "minimum-stability": "dev",
     "require": {
         "php": ">=5"
     },
-    "autoload": {
+     "autoload": {
         "psr-4": {
-            "say\\hello\\": "src/"
+            "wxs\\show\\": "src/wxs/show"
         }
     }
 }
